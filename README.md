@@ -24,6 +24,10 @@ sampling is set as 1 / Size of class, if user enters less than this value by def
 
 Candidates (sigma): Number of candidate classes for prediction (e.g. 10, 25, 50)
 
+## Link to Datasets:
+
+https://drive.google.com/open?id=0B1ZO0ijiC7SYUk9ybndPbWlCMXM
+
 ## Author Information:
 1.) Bikash Joshi
 
@@ -34,3 +38,5 @@ This software is licensed under GNU General Public License version 3.0
 
 ## Reference: 
 https://arxiv.org/abs/1701.06511
+
+## 
