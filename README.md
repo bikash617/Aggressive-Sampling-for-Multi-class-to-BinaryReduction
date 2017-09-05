@@ -13,7 +13,7 @@ and predictive performance with respect to state-of-the-art approaches.
 
 ## Running Instructions: 
 
-python3 run_script_m2b_github_probs.py  <train filename> <test filename> <example_samples> <class_sampling_rate> <Candidates>
+python3 run_script_m2b_github_probs.py  [train filename] [test filename] [example_samples] [class_sampling_rate] [Candidates]
 
 Where,
 
