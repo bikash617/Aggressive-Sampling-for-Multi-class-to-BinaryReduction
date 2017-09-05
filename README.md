@@ -13,8 +13,10 @@ and predictive performance with respect to state-of-the-art approaches.
 
 ## Running Instructions: 
 
-python3 run_script_m2b_github_probs.py [train filename] [test filename] [examples_per class] [class_sampling_rate] [Candidates]
+python3 run_script_m2b_github_probs.py  <train filename> <test filename> <example_samples> <class_sampling_rate> <Candidates>
+
 Where,
+
 example_samples (mu): Average number of examples sampled per class. The examples are chosen at random from each class with probability based on the distribution. ( e.g. values 1, 2, 5, 10)
 class_sampling_rate: Sampling rate for choosing classes to sample ( e.g. 0.1, 0.01, 0.001) (Note: The minimum value for class_
 sampling is set as 1 / Size of class, if user enters less than this value by default 1 class will be chosen.
