@@ -1,7 +1,7 @@
 
 '''
 ####################### Running Instructions ##############################################
-python3 run_script_m2b_github.py <train filename> <test filename> <example_samples> <class_sampling> <Candidates>
+python3 run_script_m2b_github_probs.py <train filename> <test filename> <example_samples> <class_sampling> <Candidates>
 
 example_samples (mu): Number of examples to be taken per class ( e.g. values 1, 2, 5)
 
@@ -61,7 +61,7 @@ def Preprocess_m2b(X, y, X_test, y_test):
     idfs = tfidf.idf_
     collection_vec = X.sum(axis=0)
     class_centroids = defaultdict(csr_matrix)
-    print("Total memory usage before loop : %d" % resource.getrusage(resource.RUSAGE_SELF).ru_maxrss)
+    #print("Total memory usage before loop : %d" % resource.getrusage(resource.RUSAGE_SELF).ru_maxrss)
     ind = 0
     total_nz = 0
     indptr = 0
@@ -139,7 +139,7 @@ def Reduction(X, y, tfidf, class_map, sampling, num_sample, classes_length,
     new_dist = Counter(selection)
     for x in (counter.keys() - new_dist.keys()):
         new_dist[x] = 1
-    print(len(new_dist.keys()))
+    #print(len(new_dist.keys()))
     #print(new_dist)
     count_red = 0
     avg_length = len_collection / float(len(classes_length))
