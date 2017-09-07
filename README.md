@@ -37,4 +37,4 @@ https://drive.google.com/open?id=0B1ZO0ijiC7SYUk9ybndPbWlCMXM
 This software is licensed under GNU General Public License version 3.0
 
 ## Reference: 
-[not ready yet]
+https://arxiv.org/pdf/1701.06511.pdf
