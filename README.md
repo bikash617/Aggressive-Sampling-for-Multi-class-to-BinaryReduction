@@ -40,4 +40,5 @@ This software is licensed under GNU General Public License version 3.0
 https://arxiv.org/pdf/1701.06511.pdf
 
 If you publish results using this program, please acknowledge its use, by referring to: 
+
 Joshi B., Amini M.-R., Partalas I., Iutzeler F., Maximov Y. Aggressive Sampling for Multi-class to Binary Reduction with Applications to Text Classification Advances in Neural Information Processing Systems 30 (NIPS 2017), p. 4162-4171
